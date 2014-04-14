@@ -1,5 +1,5 @@
 $(document).on('pagecreate','#index', function(){
-	alert('loadStories()...');
+	//alert('loadStories()...');
 	loadStories();
 });
 
