@@ -9,8 +9,8 @@ var app = {
 	},
 
 	onDeviceReady : function(){
-		$('#index').on('tap',app.loadStories());
-		$('#new').on('tap',app.bindNewStoryEvent());
+		$('#index').on('tap',app.loadStories);
+		$('#new').on('tap',app.bindNewStoryEvent);
 		app.loadStories();
 	},
 
